@@ -14,14 +14,16 @@ NumPy-based implementation of random number generation sampling using Intel (R) 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mkl_random-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mkl_random-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/mkl_random-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mkl_random-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mkl_random-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mkl-random-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/mkl_random-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/mkl_random-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/mkl_random-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/mkl_random-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/mkl_random-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/mkl-random-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mkl_random/badges/version.svg)](https://anaconda.org/conda-forge/mkl_random)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mkl_random/badges/downloads.svg)](https://anaconda.org/conda-forge/mkl_random)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mkl_random-green.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) |
 
 Installing mkl_random
 =====================
