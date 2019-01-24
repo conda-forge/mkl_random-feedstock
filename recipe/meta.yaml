@@ -21,7 +21,7 @@ requirements:
       - setuptools
       - mkl-devel
       - cython
-      - numpy 1.11.*
+      - numpy
     run:
       - python
       - mkl
