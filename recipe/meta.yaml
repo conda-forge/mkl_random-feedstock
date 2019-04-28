@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.4" %}
 
 package:
     name: mkl_random
@@ -6,11 +6,13 @@ package:
 
 source:
     url: https://github.com/IntelPython/mkl_random/archive/v{{version}}.tar.gz
-    sha256: 2270ef2834f6552850533aad01500d27c8e056f2cfbdbdb751593000aea1159e
+    sha256: f328d76c30585e8ca63c7bced14185a0dc823bb27fbc11d05655c14fdabd46ed
 
 build:
-    number: 2
+    number: 0
     skip: True  # [win and py27]
+    ignore_run_exports:
+      - blas
 
 requirements:
     build:
