@@ -23,7 +23,8 @@ requirements:
       - setuptools
       - mkl-devel
       - cython
-      - numpy
+      - numpy 1.14.*  # [osx]
+      - numpy  # [not osx]
     run:
       - python
       - mkl
