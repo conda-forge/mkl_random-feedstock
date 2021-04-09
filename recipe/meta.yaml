@@ -9,7 +9,7 @@ source:
   sha256: fa569a82797dbc6d5eb9a237c632692f85fef4857b01b98a75f12e15a1e8643e
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win and py27]
   ignore_run_exports:
     - blas
