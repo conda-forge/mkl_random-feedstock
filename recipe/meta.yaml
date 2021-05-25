@@ -23,7 +23,7 @@ requirements:
     - setuptools
     - mkl-devel
     - cython
-    - numpy 1.17.*    # [osx]
+    - numpy 1.14.*    # [osx]
     - numpy    # [not osx]
   run:
     - python
@@ -36,7 +36,7 @@ test:
   requires:
     - nose
     - mkl-service
-    - numpy >=1.17
+    - numpy >=1.14
   imports:
     - mkl_random
     - mkl_random.mklrand
