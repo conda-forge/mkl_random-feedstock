@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/IntelPython/mkl_random/archive/v{{ version }}.post0.tar.gz
-  sha256: 93af123c7768088f174a579699ba7ee192436e3c7f9cae2a7cd5e2e2d7748308
+  url: https://github.com/IntelPython/mkl_random/archive/v{{ version }}.post1.tar.gz
+  sha256: 7f3fd565c55e9fc83bc617764ba631f716041e9c58d6805fcf864928ff2b4b33
 
 build:
   number: 0
