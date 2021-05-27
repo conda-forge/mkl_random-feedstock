@@ -1,15 +1,15 @@
-{% set version = "1.2.0" %}
+{% set version = "1.2.2" %}
 
 package:
   name: mkl_random
   version: {{ version }}
 
 source:
-  url: https://github.com/IntelPython/mkl_random/archive/v{{ version }}.post0.tar.gz
-  sha256: fa569a82797dbc6d5eb9a237c632692f85fef4857b01b98a75f12e15a1e8643e
+  url: https://github.com/IntelPython/mkl_random/archive/v{{ version }}.post1.tar.gz
+  sha256: 7f3fd565c55e9fc83bc617764ba631f716041e9c58d6805fcf864928ff2b4b33
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win and py27]
   ignore_run_exports:
     - blas
@@ -23,8 +23,7 @@ requirements:
     - setuptools
     - mkl-devel
     - cython
-    - numpy 1.14.*    # [osx]
-    - numpy    # [not osx]
+    - numpy
   run:
     - python
     - mkl
