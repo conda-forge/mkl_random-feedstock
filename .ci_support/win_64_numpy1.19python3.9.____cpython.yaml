@@ -1,11 +1,13 @@
 c_compiler:
 - vs2017
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2017
+mkl_devel:
+- '2021'
 numpy:
 - '1.19'
 pin_run_as_build:
