@@ -23,6 +23,7 @@ requirements:
     - mkl-devel
     - cython
     - numpy
+    - pip
   run:
     - python
     - mkl
