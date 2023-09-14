@@ -1,3 +1,3 @@
 #!/bin/bash -x
 export MKLROOT=${PREFIX}
-$PYTHON setup.py install
+$PYTHON -m pip install --no-build-isolation --no-deps .
