@@ -1,3 +1,3 @@
 set MKLROOT=%PREFIX%
-%PYTHON% setup.py config install --old-and-unmanageable
+%PYTHON% -m pip install --no-build-isolation --no-deps .
 if errorlevel 1 exit 1
