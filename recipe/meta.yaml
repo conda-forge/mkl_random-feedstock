@@ -1,4 +1,4 @@
-{% set version = "1.2.4" %}
+{% set version = "1.2.5" %}
 
 package:
   name: mkl_random
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/IntelPython/mkl_random/archive/v{{ version }}.tar.gz
-  sha256: 9161eee81fbf27934eac1bc0d26ad3b933a582721fa66fe87e930ff2e9867c52
+  sha256: b5792db19f4efcd0e897ed08148ce336ccaf55c55d1458df3acd23f0bb920faa
 
 build:
-  number: 2
+  number: 0
   ignore_run_exports:
     - blas
 
@@ -31,11 +31,12 @@ requirements:
 
 test:
   commands:
-    - nosetests -v mkl_random
+    - pytest -v --pyargs mkl_random
   requires:
-    - nose
+    - pytest  # [python_impl != "pypy"]
+    - pytest <8  # [python_impl == "pypy"]
     - mkl-service
-    - numpy >=1.14
+    - numpy
   imports:
     - mkl_random
     - mkl_random.mklrand

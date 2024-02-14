@@ -15,15 +15,17 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 mkl_devel:
-- '2022'
+- '2023'
 numpy:
-- '1.23'
+- '1.22'
 pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.11.* *_cpython
+- 3.9.* *_73_pypy
+python_impl:
+- pypy
 target_platform:
 - linux-64
 zip_keys:
@@ -31,3 +33,4 @@ zip_keys:
   - cxx_compiler_version
 - - python
   - numpy
+  - python_impl
