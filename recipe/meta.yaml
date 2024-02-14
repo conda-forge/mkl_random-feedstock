@@ -31,11 +31,12 @@ requirements:
 
 test:
   commands:
-    - nosetests -v mkl_random
+    - pytest -v --pyargs mkl_random
   requires:
-    - nose
+    - pytest  # [python_impl != "pypy"]
+    - pytest <8  # [python_impl == "pypy"]
     - mkl-service
-    - numpy >=1.14
+    - numpy
   imports:
     - mkl_random
     - mkl_random.mklrand
