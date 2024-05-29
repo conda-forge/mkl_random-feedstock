@@ -9,7 +9,7 @@ source:
   sha256: e82f7a6efedbc58baf31db37932751a6065f861c4ca5d1e059920a051b6755ee
 
 build:
-  number: 0
+  number: 1
   ignore_run_exports:
     - blas
 
@@ -28,7 +28,6 @@ requirements:
   run:
     - python
     - mkl
-    - {{ pin_compatible('numpy') }}
 
 test:
   commands:
