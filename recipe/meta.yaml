@@ -28,6 +28,7 @@ requirements:
   run:
     - python
     - mkl
+    - numpy <2.0dev0
 
 test:
   commands:
