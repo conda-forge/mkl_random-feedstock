@@ -9,7 +9,7 @@ source:
   sha256: b15a7f65903470ee96de05360886c2e3327a6a2f178aeba74405e2e627d7820c
 
 build:
-  number: 1
+  number: 2
   ignore_run_exports:
     - blas
 
@@ -52,4 +52,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - oleksandr-pavlyk
+    - ekomarova
+    - ndgrigorian
+    - xaleryb
