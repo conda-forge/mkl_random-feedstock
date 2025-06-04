@@ -125,7 +125,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mkl_random-green.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mkl__random-green.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mkl_random.svg)](https://anaconda.org/conda-forge/mkl_random) |
 
 Installing mkl_random
 =====================
