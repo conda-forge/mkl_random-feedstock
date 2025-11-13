@@ -9,7 +9,7 @@ source:
   sha256: 4f4d6ee649e694eb94bc0a039f4db259d329a901bc706cb1648c41ebfa96d35e
 
 build:
-  number: 0
+  number: 1
   ignore_run_exports:
     - blas
 
@@ -55,3 +55,4 @@ extra:
     - ekomarova
     - ndgrigorian
     - xaleryb
+    - jharlow-intel
