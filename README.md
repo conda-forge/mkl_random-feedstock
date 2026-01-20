@@ -263,6 +263,7 @@ Feedstock Maintainers
 =====================
 
 * [@ekomarova](https://github.com/ekomarova/)
+* [@jharlow-intel](https://github.com/jharlow-intel/)
 * [@ndgrigorian](https://github.com/ndgrigorian/)
 * [@xaleryb](https://github.com/xaleryb/)
 
