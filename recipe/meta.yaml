@@ -18,9 +18,12 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
+    - cmake
+    - ninja
   host:
     - python
-    - setuptools
+    - meson-python >=0.16.0
+    - meson >=1.8.3
     - mkl-devel
     - cython
     - numpy
