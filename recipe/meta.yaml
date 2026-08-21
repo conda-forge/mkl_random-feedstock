@@ -1,4 +1,4 @@
-{% set version = "1.4.2" %}
+{% set version = "1.5.0" %}
 
 package:
   name: mkl_random
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/IntelPython/mkl_random/archive/{{ version }}.tar.gz
-  sha256: aeeaabf01109830aa4a479d69b60e7b1e4e41e41ffdaa0d0be12edf7b0d456ff
+  sha256: e1bcdd3efbffef1416fcc556cd8215dd3a89887baf5e50b596573438a137ed3e
 
 build:
   number: 0
@@ -18,9 +18,12 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
+    - cmake
+    - ninja
   host:
     - python
-    - setuptools
+    - meson-python >=0.16.0
+    - meson >=1.8.3
     - mkl-devel
     - cython
     - numpy
