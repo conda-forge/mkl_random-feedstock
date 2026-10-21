@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: mkl_random
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/IntelPython/mkl_random/archive/{{ version }}.tar.gz
-  sha256: e1bcdd3efbffef1416fcc556cd8215dd3a89887baf5e50b596573438a137ed3e
+  sha256: 0c900743ad5641b69054f8c07dcd03f503c9167b31890eb14da108ae8e9fbce7
 
 build:
   number: 0
@@ -25,13 +25,12 @@ requirements:
     - meson-python >=0.16.0
     - meson >=1.8.3
     - mkl-devel
-    - cython
+    - cython >=3.1.0
     - numpy
     - pip
   run:
     - python
-    - mkl
-    - numpy
+    - numpy >=1.26.4
 
 test:
   commands:
@@ -39,10 +38,7 @@ test:
     - pytest -v --pyargs mkl_random
   requires:
     - pip
-    - pytest  # [python_impl != "pypy"]
-    - pytest <8  # [python_impl == "pypy"]
-    - mkl-service
-    - numpy
+    - pytest
   imports:
     - mkl_random
     - mkl_random.mklrand
